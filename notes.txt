@@ -1,0 +1,23 @@
+Steps:
+1.Create node project
+    >npm init
+2.Installed few node packages
+    >npm install express --save
+    >body-parser
+    >nodemon
+3.Create a file app.js - done
+4.MVC -R architecture
+    >Model-Data
+    >View-UI
+    >Controller-API's
+    >Router-path
+
+View -> Database
+Database -> view
+Example - shopping cart 
+    1.Model - Data
+    2. Controller - Button(When you click on the button the api that is getting called to store that product in your shopping cart that function is your api)
+    3. View - The list of products in the cart
+    4.Router - When user clicks on the button "Add to Cart" the path where the API is stored
+
+    
