@@ -8,6 +8,6 @@ var MealTypesController=require('../Controllers/mealType');
 const router =express.Router();
 
 router.get('/getCityList',CityListController.getCityList)
-router.get('/getRestaurantsByCityName/:cityId',RestaurantsController.getRestaurantsByCityName)
+router.get('/getRestaurantsByCityName/:cityName',RestaurantsController.getRestaurantsByCityName)
 router.get('/widget',MealTypesController.getMealtypes)
 module.exports = router;
